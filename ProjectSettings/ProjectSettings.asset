@@ -142,8 +142,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 0}
-  - {fileID: -6775053201470242055, guid: c7c8706914293644c9d59d2ecc25f950, type: 2}
-  - {fileID: 7213967213144142687, guid: 6c3d673cc4307c84ca4017f66197679d, type: 2}
   - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -824,7 +822,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: 
     Standalone: 
-    Windows Store Apps: 
+    Windows Store Apps: master
     iPhone: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -858,7 +856,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: SampleQRCodes
-  metroPackageVersion: 1.0.0.0
+  metroPackageVersion: 1.0.2.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Microsoft
@@ -881,6 +879,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
+      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -915,7 +914,7 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
-      CodeGeneration: False
+      InternetClient: True
       BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
