@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots:wght@400&display=swap");
+/*import google noto san*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700;100;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-zen-dots: "Noto Sans TC", sans-serif;
+
+  /* Colors */
+  --color-aliceblue-100: #f3fafc;
+  --color-aliceblue-200: #eff2f9;
+  --pink: #fdd6d8;
+  --green: #dfe6d4;
+  --color-beige: #dfe6d4;
+
+  /* Gaps */
+  --gap-19xl: 38px;
+  --gap-16xl: 35px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+}
+
+
